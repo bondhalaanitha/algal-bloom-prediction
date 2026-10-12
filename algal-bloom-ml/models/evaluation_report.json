@@ -1,0 +1,74 @@
+{
+    "dataset_rows": 37732,
+    "training_samples": 30185,
+    "testing_samples": 7547,
+    "random_state": 42,
+    "test_accuracy": 0.9948323837286339,
+    "test_accuracy_percent": 99.48,
+    "balanced_accuracy": 0.994831156499933,
+    "labels": [
+        "High",
+        "Low",
+        "Medium"
+    ],
+    "confusion_matrix": [
+        [
+            2497,
+            0,
+            18
+        ],
+        [
+            0,
+            2513,
+            9
+        ],
+        [
+            7,
+            5,
+            2498
+        ]
+    ],
+    "classification_report": {
+        "High": {
+            "precision": 0.9972044728434505,
+            "recall": 0.9928429423459244,
+            "f1-score": 0.9950189280733214,
+            "support": 2515.0
+        },
+        "Low": {
+            "precision": 0.9980142970611596,
+            "recall": 0.9964314036478985,
+            "f1-score": 0.9972222222222222,
+            "support": 2522.0
+        },
+        "Medium": {
+            "precision": 0.9893069306930693,
+            "recall": 0.9952191235059761,
+            "f1-score": 0.9922542204568023,
+            "support": 2510.0
+        },
+        "accuracy": 0.9948323837286339,
+        "macro avg": {
+            "precision": 0.9948419001992265,
+            "recall": 0.994831156499933,
+            "f1-score": 0.994831790250782,
+            "support": 7547.0
+        },
+        "weighted avg": {
+            "precision": 0.9948485096633265,
+            "recall": 0.9948323837286339,
+            "f1-score": 0.9948357151047331,
+            "support": 7547.0
+        }
+    },
+    "feature_importance": {
+        "Chlorophyll": 0.2701089752066497,
+        "Phycocyanin": 0.2298387968605746,
+        "Turbidity": 0.2098074441129953,
+        "Specific_Conductivity": 0.14554351630569384,
+        "pH": 0.04770115069152131,
+        "Temperature": 0.04240199446795272,
+        "DO_Saturation": 0.027347343969273165,
+        "Dissolved_Oxygen": 0.02725077838533945
+    }
+}
