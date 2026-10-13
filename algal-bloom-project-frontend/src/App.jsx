@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
 import Home from "./pages/Home";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard";
 import Prediction from "./pages/Prediction";
 import History from "./pages/History";
 import About from "./pages/About";
